@@ -1,0 +1,22 @@
+POST /api/v1/update/sleep
+Authorization: Bearer <token>
+
+{
+    "updateObject": {
+        "sleepDuration": 9,
+        "dataCollectionStep": 4
+    }
+}
+
+
+response:
+
+{
+    "status": "success",
+    "data": {
+        "sleepDuration": 9,
+        "dataCollectionStep": 4
+    },
+    "message": "operation completed successfully",
+    "displayMessage": "Successful"
+}

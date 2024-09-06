@@ -1,0 +1,23 @@
+POST /api/v1/update/sleep 
+Authorization: Bearer <token>
+
+{
+    "updateObject": {
+        "wakeTime": "2021-01-16T10:00:19+05:30",
+        "dataCollectionStep": 3
+    }
+}
+
+
+
+response:
+
+{
+    "status": "success",
+    "data": {
+        "wakeTime": "2021-01-16T10:00:19+05:30",
+        "dataCollectionStep": 3
+    },
+    "message": "operation completed successfully",
+    "displayMessage": "Successful"
+}

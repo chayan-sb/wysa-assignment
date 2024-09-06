@@ -1,0 +1,23 @@
+Endpoint: POST /api/v1/update/sleep 
+Authorization: Bearer <token>
+{
+  "updateObject": {
+      "bedTime": "2021-01-16T01:00:19+05:30",
+      "dataCollectionStep": 2
+  }
+}
+
+
+<!--
+response:
+
+{
+  "status": "success",
+  "data": {
+      "bedTime": "2021-01-16T01:00:19+05:30",
+      "dataCollectionStep": 2
+  },
+  "message": "operation completed successfully",
+  "displayMessage": "Successful"
+}
+-->
